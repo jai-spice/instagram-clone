@@ -15,7 +15,7 @@ class InstagramCard extends StatelessWidget {
       height: height,
       width: width,
       margin: const EdgeInsets.symmetric(vertical: 10),
-      padding: const EdgeInsets.all(40.0),
+      padding: const EdgeInsets.symmetric(horizontal: 40.0, vertical: 24.0),
       decoration: BoxDecoration(
         color: Colors.white,
         border: Border.all(color: kBorderColor),
